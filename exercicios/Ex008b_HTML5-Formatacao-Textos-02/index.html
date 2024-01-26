@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Outras Formatações</title>
+</head>
+<body>
+    <h1>Outras Formatações</h1>
+    <p>o comando <code>document.getElementById('teste')</code> é escrito em JavaScript.</p>
+    <!--<code> formata fonte monoespaçada, ou seja, mesmo tamanho (boa para exibir códigos)-->
+    <pre><!--Essa tag faz identação para exibir códigos, Shift + TAB volta a identação caso deseje-->
+        <code>
+        num = int(input('Digite um número: '))
+        if num % 2 == 0:
+            print(f'O número {num} é par')
+        else:
+            print(f'O número {num} é Impar)
+        print('FIM do programa!')
+        </code>
+    </pre>
+    <h2>Citações</h2>
+    <p>Como diria o pai de um amigo: <q>o computador é um burro muito rápido.</q></p>
+    <!--<q> é tag de quote ou aspas para citação. -->   
+    <h2>Citações Completas</h2>
+    <p>Segundo Jeff Noble, no seu livro HTML para Leigos:</p>
+    <blockquote cite="https://www.google.com.br/books/edition/Fundamentos_de_HTML5_e_CSS3/2iPYCQAAQBAJ?hl=pt-BR&gbpv=1&dq=html&printsec=frontcover">
+        <q>A diferença entre elementos inline e um bloco de texo é importante. Os elementos HTML nesse capítulo descrevem os blocos de texo.</q>
+    </blockquote> 
+    <h2>Abreviações</h2>
+    <p>Estou estudando <abbr title="Hyper Text Markup Language">HTML</abbr> e <abbr title="Cascading Style Sheet">CSS</abbr>. Estou adorando!</p>
+    <h2>Texto Invertido</h2>
+    <p><bdo dir="rtl">Estou apredendo a criar coisas em HTML.</bdo></p>
+    <p><bdo dir="ltr">Estou apredendo a criar coisas em HTML.</bdo></p>
+</body>
+</html>

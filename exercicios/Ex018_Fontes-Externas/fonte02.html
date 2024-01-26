@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes Extrenas</title>
+    <style>
+        /* Tem que ficar nessa ordem 
+        1- Fontes Extrenas provenientes do google pelo seletor: @import 
+        2- Fontes Extrenas particulares pelo seletor: @font-face
+        */
+        @import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap'); 
+
+        @import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+        @import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&display=swap');
+
+        @font-face {
+            font-family: 'Zillaz';
+            src: url('fontes/Goodzillaz.otf') format('opentype');
+            font-weight: normal;
+            font-style: normal;
+        }
+
+        @font-face {
+            font-family: 'Yasmen';
+            src: url('fontes/Yasmen.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+        }               
+
+            /* 
+                Tipos de format ():
+                - opentype: otf
+                - truetype: ttf
+                - embedded-opentype: eot
+                - truetype-aat: aat (Appel advanced typografy)
+                - svg: svg
+            */
+        
+        body {
+            font-family: 'Yasmen', Helvetica, sans-serif;
+            font-size: 1em;
+            color: rgb(60, 9, 243);
+            font-weight: normal;
+        }
+
+        h1 {
+            font-family: 'Berkshire Swash', Times, serif; 
+            font-size: 3em;
+            color: rgb(230, 127, 10);
+        }
+
+        h2 {
+            font-family: 'Kaushan Script', sans-serif;
+            font-size: 2em;
+            color:rgb(9, 243, 9)
+        }
+    </style>
+</head>
+<body>
+    <h1>Título: Testando Fontes Externas: Soul Nutre</h1>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Beatae provident officiis iste laborum consequuntur omnis at reiciendis officia accusantium vel! Nihil consequuntur soluta aut minima ducimus eos, numquam nostrum harum!</p>
+    <h2>Subtítulo</h2>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eaque, nulla aperiam. Amet, beatae. Est culpa quae, placeat dolorem nulla totam eum quidem quisquam quis fugit aspernatur nam explicabo. Dolorem, pariatur.</p>
+</body>
+</html>

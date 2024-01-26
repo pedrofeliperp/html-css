@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seletores Personalizados</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 id="principal" class="destaque">Criando sites com HTML e CSS</h1> <!-- Veja que assim não funciona. O id soprepõe a classe, porém sempre herda configs que estirevem na classe e não for conflitante com o id.  -->
+    <h1>Aprendendo HTML</h1>
+    <h2 class="basico">HTML básico</h2> <!-- Não dê nome aos id's e classes pela forma e sim pela funcionalidade -->
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minus quisquam, quo, necessitatibus <span class="basico">libero nesciunt</span> voluptates commodi harum vero deserunt rem consequuntur tempore odit, delectus consequatur eum explicabo repellat. Dolores, dolore?</p><!-- A tag <span> permite especificar estulso de uma classe em um trecho. -->
+    <h2 class="intermediario">HTML intermediário</h2>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minus quisquam, quo, necessitatibus libero nesciunt voluptates commodi harum vero deserunt rem consequuntur tempore odit, delectus consequatur eum explicabo repellat. Dolores, dolore?</p>
+    <h2 class="avancado">HTML Avançado</h2>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minus quisquam, quo, necessitatibus libero nesciunt voluptates commodi harum vero deserunt rem consequuntur tempore odit, delectus consequatur eum explicabo repellat. Dolores, dolore?</p>
+    <h1 class="destaque">Aprendendo CSS</h1>
+    <h2 class="basico">CSS básico</h2>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minus quisquam, quo, necessitatibus libero nesciunt voluptates commodi harum vero deserunt rem consequuntur tempore odit, delectus consequatur eum explicabo repellat. Dolores, dolore?</p>
+    <h2 class="intermediario">CSS intermediário</h2>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minus quisquam, quo, necessitatibus libero nesciunt voluptates commodi harum vero deserunt rem consequuntur tempore odit, delectus consequatur eum explicabo repellat. Dolores, dolore?</p>
+    <h2 class="avancado destaque">CSS Avançado</h2><!-- No mesmo parâmetro de classe posso valorar duas classes. -->
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minus quisquam, quo, necessitatibus libero nesciunt voluptates commodi harum vero deserunt rem consequuntur tempore odit, delectus consequatur eum explicabo repellat. Dolores, dolore?</p>
+</body>
+</html>
